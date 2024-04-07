@@ -1,0 +1,48 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: 0;
+}
+.flex {
+  display: flex;
+}
+body {
+  background-color: pink;
+  transition: 2s;
+}
+header {
+  justify-content: space-around;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+}
+h1 {
+  color: pink;
+  font-family: initial;
+  align-self: center;
+  font-size: 200px;
+  font-weight: 100px;
+}
+.darkButton {
+  width: 80px;
+  height: 35px;
+  border-radius: 50px;
+  background-color: blue;
+  cursor: pointer;
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+}
+.moon {
+  display: none;
+}
+.dark {
+  background-color: rgb(34, 32, 32);
+  transition: 2s;
+}
+.darkMoon {
+  display: inline-block;
+}
+.darksun {
+  display: none;
+}
